@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "tit": "상품명1",
+    "info": ["정보1", "정보2"],
+    "price": "2,000원",
+    "status": "",
+    "counts": {
+      "application": 100,
+      "chat": 100
+    }
+  },
+  {
+    "id": 2,
+    "tit": "상품명2",
+    "info": ["정보1"],
+    "price": "2,000원",
+    "status": "share",
+    "counts": {
+      "application": 200,
+      "interest": 200
+    }
+  },
+  {
+    "id": 3,
+    "tit": "상품명3",
+    "info": ["정보1", "정보2","정보3"],
+    "price": "2,000원",
+    "status": "share",
+    "counts": {
+      "application": 200
+    }
+  },
+  {
+    "id": 4,
+    "tit": "상품명4",
+    "info": ["정보1", "정보2"],
+    "price": "50,000원",
+    "status": "complete",
+    "counts": {
+      "application": 200,
+      "chat": 200,
+      "interest": 200
+    }
+  },
+  {
+    "id": 5,
+    "tit": "광고",
+    "info": ["정보1", "정보2"],
+    "status": "sponsored"
+  },
+  {
+    "id": 6,
+    "tit": "상품명6",
+    "info": ["정보1", "정보2"],
+    "price": "30,000원",
+    "status": "complete",
+    "counts": {
+      "application": 200,
+      "chat": 200,
+      "interest": 200
+    }
+  },
+  {
+    "id": 7,
+    "tit": "상품명7",
+    "info": ["정보1", "정보2"],
+    "price": "3,000원",
+    "status": "complete",
+    "counts": {
+      "application": 200,
+      "chat": 200,
+      "interest": 200
+    }
+  }
+
+]
