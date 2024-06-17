@@ -1,6 +1,12 @@
 import React from "react";
 
-function PrdList( {products} ){
+function PrdList( {onbottomOpen,products} ){
+  const handleBottomClick = ()=>{
+    onbottomOpen("바텀시트","바텀시트입니다.")
+  }
+  const addClass = ()=>{
+    
+  }
   return(
     <ul className="prd-list">
       {products.map((product)=>{
@@ -31,12 +37,6 @@ function PrdList( {products} ){
                     )}
                   </div>
                 </div>
-                <div className="kebab-menu">
-                  <button type="button">
-                    <span className="blind">옵션 더보기</span>
-                    옵션
-                  </button>
-                </div>
               </div>
             </div>
             <div className="bottom-list">
@@ -66,6 +66,10 @@ function PrdList( {products} ){
               )}
             </div>
           </a>
+          <button type="button" className="btn-kebab" onClick={handleBottomClick}>
+            <span className="blind">옵션 더보기</span>
+            옵션
+          </button>
         </li>
       })}
     </ul>

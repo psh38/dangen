@@ -5,14 +5,6 @@ function Header({onPopupOpen}) {
     onPopupOpen("지역선택", "지역선택설명설명");
   };
 
-  const handleSearchClick = () => {
-    onPopupOpen("검색", "검색검색검색검색");
-  };
-
-  const handleNotificationClick = () => {
-    onPopupOpen("알림", "알림알림알림알림알림알림");
-  };
-
   return (
     <header>
       <div className="container">
@@ -23,12 +15,12 @@ function Header({onPopupOpen}) {
         </div>
         <ul className="utill-list">
           <li>
-            <button type="button" onClick={handleSearchClick}>
+            <button type="button">
               <span className="blind">검색</span>검색
             </button>
           </li>
           <li>
-            <button type="button" onClick={handleNotificationClick}>
+            <button type="button">
               <span className="blind">알림</span>알림
             </button>
           </li>
